@@ -195,7 +195,7 @@ IPACM_Lan::IPACM_Lan(int iface_index) : IPACM_Iface(iface_index)
 #ifdef FEATURE_IPACM_HAL
 
 		/* check if Upstream was set before as WIFI with RNDIS case */
-		if(ipa_if_cate == LAN_IF && IPACM_Wan::backhaul_is_sta_mode == true)  /* LTE */
+		if(ipa_if_cate == LAN_IF && IPACM_Wan::backhaul_is_sta_mode == true)  /* STA */
 		{
 			IPACMDBG_H(" Skip the Upstream flag set on LAN instance (%d) with WIFI backhaul (%d)\n", ipa_if_cate, IPACM_Wan::backhaul_is_sta_mode ); /* RNDIS+WIFI not support on msm*/
 			return;

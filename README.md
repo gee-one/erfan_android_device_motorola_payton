@@ -1,20 +1,18 @@
-Copyright 2017 - The LineageOS Project
+Copyright 2018 - The LineageOS Project
 
-Device configuration for Motorola Z2 Force (nash)
+Device configuration for Motorola X4 (payton)
 =====================================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (4x2.35 GHz Kryo & 4x1.9 GHz Kryo)
-CHIPSET | Qualcomm MSM8998 Snapdragon 835
-GPU     | Adreno 540
-Memory  | 4GB or 6GB
+CPU     | Octa-core (8x2.2 GHz ARM Cortex A53)
+CHIPSET | Qualcomm MSM8998 Snapdragon 630
+GPU     | Adreno 508
+Memory  | 3GB
 Shipped Android Version | 7.1.1 (Nougat)
-Storage | 64GB or 128GB
-Battery | 2730 mAh
-Dimensions | 155.8 x 76 x 6.1 mm
-Display | 1440 x 2560 pixels, 5.5" P-OLED
+Storage | 32GB
+Battery | 3000 mAh
+Dimensions | 148.4 x 73.4 x 8 mm
+Display | 1080 x 1920 pixels, 5.2" IPS LCD
 Rear Camera  | Dual 12 MP
-Front Camera | 5 MP
-
-![Motorola Z2 Force](https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-z2-force-.jpg "Motorola Z2 Force")
+Front Camera | 16 MP

@@ -6,7 +6,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/nash/nash-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/payton/payton-vendor.mk)
 
 # Device
 $(call inherit-product, device/motorola/payton/device.mk)

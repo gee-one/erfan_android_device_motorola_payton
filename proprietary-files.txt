@@ -53,7 +53,7 @@ etc/zaf/zaf_mot_s5k2l7sa.json
 etc/zaf/zaf_imx386.json
 etc/zaf/zaf_imx386_mono.json
 lib/hw/libSonyDefocus.so
-vendor/bin/vl53l1_daemon
+#vendor/bin/vl53l1_daemon
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libactuator_mot_ak7371.so
 vendor/lib/libchromatix_imx386_4k_video_3a.so
@@ -63,7 +63,7 @@ vendor/lib/libchromatix_imx386_cpp_hfr_240.so
 vendor/lib/libchromatix_imx386_cpp_hfr_60.so
 vendor/lib/libchromatix_imx386_cpp_liveshot.so
 vendor/lib/libchromatix_imx386_cpp_snapshot.so
-vendor/lib/libchromatix_imx386_cpp_snapshot_custom.so
+#vendor/lib/libchromatix_imx386_cpp_snapshot_custom.so
 vendor/lib/libchromatix_imx386_cpp_video.so
 vendor/lib/libchromatix_imx386_cpp_video_4k.so
 vendor/lib/libchromatix_imx386_default_video.so
@@ -81,7 +81,7 @@ vendor/lib/libchromatix_imx386_mono_cpp_hfr_240.so
 vendor/lib/libchromatix_imx386_mono_cpp_hfr_60.so
 vendor/lib/libchromatix_imx386_mono_cpp_liveshot.so
 vendor/lib/libchromatix_imx386_mono_cpp_snapshot.so
-vendor/lib/libchromatix_imx386_mono_cpp_snapshot_custom.so
+#vendor/lib/libchromatix_imx386_mono_cpp_snapshot_custom.so
 vendor/lib/libchromatix_imx386_mono_cpp_video.so
 vendor/lib/libchromatix_imx386_mono_cpp_video_4k.so
 vendor/lib/libchromatix_imx386_mono_default_video.so
@@ -104,7 +104,7 @@ vendor/lib/libchromatix_mot_ov5695_common.so
 vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so
 vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so
 vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so
-vendor/lib/libchromatix_mot_ov5695_cpp_snapshot_custom.so
+#vendor/lib/libchromatix_mot_ov5695_cpp_snapshot_custom.so
 vendor/lib/libchromatix_mot_ov5695_cpp_video.so
 vendor/lib/libchromatix_mot_ov5695_default_video.so
 vendor/lib/libchromatix_mot_ov5695_default_video_3a.so
@@ -210,7 +210,7 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dummyalgo.so
-vendor/lib/libmmcamera_edgesmooth_lib.so
+#vendor/lib/libmmcamera_edgesmooth_lib.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
@@ -296,7 +296,7 @@ vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_ubifocus_lib.so
+#vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmcamera_vstab_module.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmjpeg.so
@@ -445,7 +445,7 @@ vendor/lib/libcppf.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libsdedrm.so
-vendor/lib/libspl.so
+#vendor/lib/libspl.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libGPreqcancel_svc.so
@@ -455,13 +455,13 @@ vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
 vendor/lib64/libsdedrm.so
 vendor/lib64/libSecureUILib.so
-vendor/lib64/libspl.so
+#vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 
 # DRM - Chamomile
-vendor/bin/chamomile_provision
-vendor/lib/libChamomilePA.so
-vendor/lib64/libChamomilePA.so
+#vendor/bin/chamomile_provision
+#vendor/lib/libChamomilePA.so
+#vendor/lib64/libChamomilePA.so
 
 # DRM - HDCP
 vendor/lib/libmm-hdcpmgr.so
@@ -496,8 +496,8 @@ vendor/lib/rfsa/adsp/libhvxMathVIO.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib/rfsa/adsp/libvpp_frc.so
+#vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+#vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib64/libsdsprpc.so
 
@@ -597,11 +597,12 @@ vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8a
 vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
-vendor/firmware/a530_zap.b00
-vendor/firmware/a530_zap.b01
-vendor/firmware/a530_zap.b02
-vendor/firmware/a530_zap.elf
-vendor/firmware/a530_zap.mdt
+#vendor/firmware/a530_zap.b00
+#vendor/firmware/a530_zap.b01
+#vendor/firmware/a530_zap.b02
+#vendor/firmware/a530_zap.elf
+#vendor/firmware/a530_zap.mdt
+vendor/firmware/a540_gpmu.fw2
 vendor/firmware/a530v1_pfp.fw
 vendor/firmware/a530v1_pm4.fw
 vendor/firmware/a530v2_seq.fw2
@@ -763,7 +764,7 @@ etc/permissions/com.motorola.motodisplay.xml
 vendor/firmware/libpn553_fw.so
 
 # Offmode charging
-lib64/com.motorola.mod@1.0.so
+#lib64/com.motorola.mod@1.0.so
 vendor/bin/charge_only_mode
 
 # Perf
@@ -777,11 +778,11 @@ vendor/lib64/libqti-util.so|587254cef89359718fbd89c8dc56f41e087c075c
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
-vendor/bin/spdaemon
+#vendor/bin/spdaemon
 vendor/lib/libperipheral_client.so
-vendor/lib/libspcom.so
+#vendor/lib/libspcom.so
 vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so
+#vendor/lib64/libspcom.so
 
 # Postprocessing
 etc/permissions/com.qti.snapdragon.sdk.display.xml
@@ -964,14 +965,14 @@ vendor/lib/hw/activity_recognition.sdm660.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/libsensor1.so
-vendor/lib/libsns_low_lat_stream_stub.so
+#vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.ssc.so
 vendor/lib64/hw/activity_recognition.sdm660.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
 vendor/lib64/libsensor1.so
-vendor/lib64/libsns_low_lat_stream_stub.so
+#vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
 
@@ -995,14 +996,14 @@ vendor/lib64/com.fingerprints.extension@1.0_vendor.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib64/libadropbox.so
-vendor/lib64/sensors.iio.so
-vendor/lib/sensors.iio.so
-vendor/lib64/sensors.tof.so
-vendor/lib/sensors.tof.so
-lib/lib_mot_app6_metadata.so
-lib64/libiio.so
-lib/libiio.so
-lib/libmot_lux_standardization.so
+#vendor/lib64/sensors.iio.so
+#vendor/lib/sensors.iio.so
+#vendor/lib64/sensors.tof.so
+#vendor/lib/sensors.tof.so
+vendor/lib/lib_mot_app6_metadata.so
+#lib64/libiio.so
+#lib/libiio.so
+vendor/lib/libmot_lux_standardization.so
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/libmot_afd.so
 vendor/lib/libmot_gpu_mapper.so

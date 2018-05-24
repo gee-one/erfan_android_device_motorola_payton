@@ -1,0 +1,2 @@
+allow bluetooth self:capability dac_override;
+allow bluetooth wcnss_filter_exec:file entrypoint;

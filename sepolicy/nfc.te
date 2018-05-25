@@ -1,2 +1,3 @@
-allow nfc system_data_file:dir { add_name write };
-allow nfc system_data_file:file { create open write };
+allow nfc system_data_file:dir { add_name };
+allow nfc system_data_file:file { open };
+

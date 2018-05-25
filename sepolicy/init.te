@@ -1,2 +1,2 @@
-allow init bluetooth:process { noatsecure rlimitinh siginh transition };
+allow init bluetooth:process { noatsecure rlimitinh siginh };
 allow init socket_device:sock_file write;

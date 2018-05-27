@@ -1,5 +1,5 @@
 # Moto Mods
-import /vendor/etc/init/hw/init.mods.rc
+# import /vendor/etc/init/hw/init.mods.rc
 
 # Charge only mode configuration
 import /vendor/etc/init/hw/init.mmi.charge_only.rc

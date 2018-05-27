@@ -184,7 +184,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
-    init.gbmods.sh \
+#    init.gbmods.sh \
     init.mmi.rc \
     init.mmi.charge_only.rc \
     init.mmi.chipset.rc \
@@ -200,7 +200,7 @@ PRODUCT_PACKAGES += \
     init.mmi.usb.sh \
     init.mmi.usb.rc \
     init.mmi.volte.rc \
-    init.mods.rc \
+#    init.mods.rc \
     init.qcom.rc \
     init.qcom.early_boot.sh \
     init.qcom.power.sh \

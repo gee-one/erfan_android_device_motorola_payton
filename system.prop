@@ -44,9 +44,11 @@ vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
 bt.max.hfpclient.connections=1
-persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
+#persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac
 qcom.bluetooth.soc=cherokee
-ro.bluetooth.a4wp=false
+#ro.bluetooth.a4wp=false
+#force disable Bluetooth AAC by default
+persist.bt.a2dp.aac_disable=true
 
 # Camera
 camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.camera2,com.motorola.motocit,org.cyanogenmod.snap
